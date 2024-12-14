@@ -1,5 +1,5 @@
 import streamlit as st
-from api.api_utils import upload_document, list_documents, delete_document
+from api_utils import upload_document, list_documents, delete_document
 
 def display_sidebar():
     # model Selection

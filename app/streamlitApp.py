@@ -1,6 +1,6 @@
 import streamlit as st
-from sidebar import display_sidebar
-from chat_interface import display_chat_interface
+from app.sidebar import display_sidebar
+from app.chat_interface import display_chat_interface
 
 st.title("Document Chatbot")
 
